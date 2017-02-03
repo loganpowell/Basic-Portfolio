@@ -80,8 +80,9 @@ nav {
 main {
 	background-image: url(../images/ignasi_pattern_s.png);
 	background-repeat: repeat;
-	height: 100%;
+	overflow: visible;
 	position: relative;
+	min-height: 100%
 }
 
 main h2, h3 {
@@ -199,7 +200,7 @@ main h2, h3 {
 	border-top: 5px solid #4AAAA5;
 	font-size: .8em;
 	position: absolute;
-	bottom: 0;
+	bottom: -80px;
 	width: 100%;
 }
 
