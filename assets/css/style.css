@@ -96,11 +96,11 @@ main h2, h3 {
 	padding: 25px;
 }
 
-#about-me, #contact {
-	width: 67%;
+#about-me, #contact, #portfolio {
+	width: 650px;
 }
 
-#about-me h2, #contact h2 {
+#about-me h2, #contact h2, #portfolio h2 {
 	padding-bottom: 15px;
 	margin-bottom: 15px;
 	border-bottom: 2px solid #DDDDDD;
@@ -122,7 +122,7 @@ main h2, h3 {
 }
 
 #connect {
-	width: 29%;
+	width: 270px;
 	float: right;
 }
 
@@ -137,10 +137,57 @@ main h2, h3 {
 }
 
 .social-icon img {
-	width: 55px;
+	width: 50px;
 	float: left;
 	margin: 10px;
 }
+
+.social-icon img:hover {
+
+}
+
+/* ---- portfolio specific stuff ---- */
+
+#portfolio-content li {
+	display: block;
+	float: left;
+	width: 47.7%;
+	margin: 0;
+}
+
+#portfolio-content li:nth-child(even) {
+	margin: 13px 0 13px 13px;
+}
+
+#portfolio-content li:nth-child(odd) {
+	margin: 13px 13px 13px 0;
+}
+
+.portfolio-image {
+	position: relative;
+	padding: 0;
+}
+
+.portfolio-image img{
+	width: 100%;
+	vertical-align: bottom;
+}
+
+.portfolio-image h3 {
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	margin: 15px;
+}
+
+.overlay-container {
+	position: absolute;
+	bottom: 15px;
+	margin: 0;
+	width: 100%;
+	background-color: #4AAAA5;
+}
+
 
 /* ---------------- footer (fix container to show pattern) ----------------- */
 
